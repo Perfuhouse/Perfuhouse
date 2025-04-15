@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #0A1A2F;
+  color: #EDE0C9;
+  text-align: center;
+}
+
+header {
+  padding: 60px 20px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #EDE0C9;
+  color: #0A1A2F;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #d4c2a2;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.producto img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.producto p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.testimonios blockquote {
+  font-style: italic;
+  font-size: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+footer {
+  padding: 30px 20px;
+  font-size: 14px;
+  background-color: #08121E;
+}
+
+footer a {
+  color: #EDE0C9;
+  text-decoration: underline;
+}
